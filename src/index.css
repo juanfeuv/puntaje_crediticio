@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', -apple-system, 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('/public/background.jpg');
+  background-size: cover;
+  /* filter: blur(8px); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
