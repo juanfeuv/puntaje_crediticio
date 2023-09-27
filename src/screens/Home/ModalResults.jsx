@@ -6,17 +6,18 @@ import React, { useEffect, useState } from "react";
 import Row from 'react-bootstrap/Row';
 
 import calculateScore from './calculateScore';
-// import VerticalModal from '../../componentes/VerticalModal/VerticalModal';
 
-const ModalResults = ({ key }) => {
+
+const ModalResults = ({ keyTab, form }) => {
   const [chart, setChart] = useState({});
 
   useEffect(() => {
-    if (key === 'res') {
+    if (keyTab === 'res') {
       const res = calculateScore(form);
+      console.log("res", res);
       setChart(res);
     }
-  }, [key]);
+  }, [keyTab]);
 
   return (
     <Container fluid>

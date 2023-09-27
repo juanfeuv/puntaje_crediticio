@@ -44,7 +44,7 @@ const Home = (props) => {
             />
           </Tab>
           <Tab eventKey="res" title="Resultados">
-            <ModalResults key={key} />
+            <ModalResults keyTab={key} form={form} />
           </Tab>
         </Tabs>
       </div>
